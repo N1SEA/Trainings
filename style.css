@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    margin: 0;
+    background-color:#69B99D;
+    width: 100%;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    padding: 64px 120px 29px 120px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 22px;
+    color: #89C5CC;
+}
+
+
+.nav a:not(:last-child) { 
+    margin-right: 48px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #9D99A6;
+    transition: font-weight .3s ease;
+    line-height: 23px;
+    
+}
+
+.nav a:hover{
+    font-weight: 700;
+    color:#1F1534;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information{
+    width: 560px;
+}
+.information h1 {
+    font-size: 48px;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 72px;
+    margin-bottom: 16px;
+}
+.information h1 span{
+    color:#89C5CC;
+}
+
+.information p {
+    width: 448px;
+    font-size: 16px;
+    color: #7D7987;
+    line-height: 26px;
+    margin-bottom: 48px;
+    
+}
+.information p span {
+    font-weight: 700;
+}
+
+button {
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #69B99D;
+    border:none;
+    color: white;
+    padding: 14px 32px 15px 32px;
+}
+
+button img {
+    margin-right: 8px;
+    font-family: "Mulish", sans-serif;
+}
+
+.dots {
+    position: absolute;
+    left: calc(100% - 86px);
+    top: calc(100% - 78px);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer span {
+    font-weight: 700;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
